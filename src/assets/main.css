@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Quicksand:wght@300&display=swap');
+
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Quicksand', sans-serif;
+
+Vídeo de <a href="https://pixabay.com/pt/users/rostislavuzunov-8621397/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=71122">Rostislav Uzunov</a> no <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=71122">Pixabay</a>
+
+*/
+
+:root{
+  --cor-de-fundo: #111010;
+  --cor-secundaria:#1B1A1A;
+  --cor-blue:#2C1276;
+  --cor-texto: #ffff;
+
+}
