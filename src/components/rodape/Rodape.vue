@@ -20,7 +20,7 @@
 
         </div>
 
-        <div class="session" data-aos="fade-left">
+        <div class="session" data-aos="fade-right">
             <h1>Rede sociais</h1>
             
             <div class="info">
@@ -61,7 +61,7 @@ export default {
 
 .rodape{
     width: auto;
-    height: 500px;
+    height: auto;
     background-color: var(--cor-blue);
 }
 
@@ -104,6 +104,14 @@ li,.links{
     .session{
         margin-left: 50px;
     }
+}
+
+@media (max-width: 1502px){
+    .session{
+        margin-left: 30px;
+        width:610px;
+    }
+    
 }
 
 @media (max-width: 1280px){
@@ -154,6 +162,21 @@ li,.links{
     }
 }
 
+@media (max-width: 571px) {
+    .session{
+        width:347px;
+    }
+}
+
+@media (max-width: 465px){
+    .session{
+        width:329px;
+    }
+    .rodape{
+        height:736px;
+    }
+}
+
 @media (max-width: 391px){
     .titulo{
         font-size: 42px;
@@ -167,6 +190,12 @@ li,.links{
     }
     li{
         font-size: 22px;
+    }
+}
+
+@media (max-width: 379px){
+    .rodape{
+        height: 800px;
     }
 }
 

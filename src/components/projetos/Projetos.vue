@@ -17,10 +17,9 @@
         :srcproj="linkproj"
              
         srcimg="/portifolio-vue.js/assets/sitedegrade.jpg"
-             
+            
              
         />
-
     </div>
 
     <div class="cards2" data-aos="fade-up-right">
@@ -89,102 +88,70 @@ export default {
 
 .cards, .cards2{
     display: inline-block;
-    margin-left:130px;
+    margin-left:54px;
     margin-bottom:100px;
+    margin-bottom:160px;
 }
 
-@media (max-width: 1725px){
+@media (max-width: 1519px){
     .cards, .cards2{
-        margin-left: 100px;
+        margin-left: 23px;
     }
 }
 
-@media (max-width: 1715px){
+@media(max-width: 1506px){
     .cards, .cards2{
-        margin-left: 65px;
+        margin-left: 374px;
     }
 }
 
-@media (max-width: 1708px){
+@media (max-width: 1428px){
     .cards, .cards2{
-        display:block;
-        margin-left:505px;
-    }
-    .cards{
-        margin-bottom:200px;
+        margin-left: 348px;
     }
 }
 
-@media (max-width: 1677px){
-    .cards,.cards2{
-        margin-left:432px;
-    }
-}
-
-@media (max-width: 1601px){
+@media (max-width: 1352px){
     .cards, .cards2{
-        margin-left:370px;
+        margin-left: 307px;
     }
 }
 
-@media (max-width: 1494px){
+@media (max-width: 1312px){
     .cards, .cards2{
-        margin-left:310px;
+        margin-left: 275px;
     }
 }
 
-@media (max-width: 1350px){
+@media (max-width: 1244px){
     .cards, .cards2{
-        margin-left:245px;
+        margin-left: 250px;
     }
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1192px){
     .cards, .cards2{
-        margin-left:200px;
+        margin-left: 225px;
     }
 }
 
-
-@media (max-width: 1350px){
+@media (max-width: 1132px){
     .cards, .cards2{
-        margin-left:210px;
+        margin-left: 195px;
     }
 }
 
-@media (max-width: 1225px){
+@media (max-width: 1104){
     .cards, .cards2{
-        margin-left:145px;
+        margin-left: 176px;
     }
 }
 
-
-@media (max-width: 1238px){
+@media (max-width: 1060px){
     .cards, .cards2{
-        margin-left:245px;
+        margin-left: 143px;
     }
 }
-
-
-@media (max-width: 1180px){
-    .cards, .cards2{
-        margin-left:206px;
-    }
-}
-
-@media (max-width: 1056px){
-    .cards, .cards2{
-        margin-left:95px;
-    }
-}
-
-
-@media (max-width: 1114px){
-    .cards, .cards2{
-        margin-left:155px;
-    }
-}
-
 
 @media (max-width: 996px){
     .cards, .cards2{
@@ -210,6 +177,18 @@ export default {
 @media (max-width: 800px){
     .cards, .cards2{
         margin-left:10px;
+    }
+}
+
+@media (max-width: 556px){
+    .cards, .cards2{
+        margin-left: 14px;
+    }
+}
+
+@media (max-width: 536px){
+    .cards, .cards2{
+        margin-left: 8px;
     }
 }
 

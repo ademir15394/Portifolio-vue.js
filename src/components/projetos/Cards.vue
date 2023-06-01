@@ -146,14 +146,84 @@ export default {
     }
 }
 
+@media (max-width: 632px){
+    .card{
+        width:595px;
+    }
+    .img{
+        width:553px;
+        height:274px;
+    }
+}
+
+@media (max-width: 604px){
+    .card{
+        width: 555px;
+    }
+    .img{
+        width: 519px;
+        height:262px;
+    }
+}
+
+@media (max-width: 579px){
+    .img{
+        width:481px;
+        height:238px;
+    }
+    .card{
+        width:521px;
+    }
+}
+
+@media (max-width: 531px){
+    .card{
+        width: 482px;
+    }
+    .img{
+        width:441px;
+        height:206px;
+    }
+}
+
+@media (max-width: 524px){
+    .card{
+        width: 447px;
+    }
+    .img{
+        width:402px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 468px){
+    .img{
+        width:404px;
+        height: 194px;
+    }
+    .card{
+        width:435px;
+    }
+}
+
+@media (max-widht: 4491px){
+    .card{
+        width: 410px;
+    }
+    .img{
+        width: 370px;
+        height: 180px;
+    }
+}
+
 @media (max-width: 391px){
     .card{
-        width: 363px;
+        width: 330px;
         margin-left:4px;
     }
     .img{
-        width:325px;
-        height: 176px;
+        width:293px;
+        height: 158px;
     }
     .btn{
         margin-left:21px;

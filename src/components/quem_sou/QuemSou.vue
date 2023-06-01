@@ -33,6 +33,10 @@ export default {
 <style scoped>
 @import url(../../assets/main.css);
 
+/*
+#quemsou{
+    display:block;
+}*/
 
  h1{
     display: flex;
@@ -53,7 +57,6 @@ export default {
     background-color: var(--cor-secundaria);
     margin-bottom: 400px;
     margin-top: 40px;
-    margin-left:400px;
 
 }
 
@@ -81,60 +84,6 @@ p{
     margin-left: 49px;
     font-family: 'Quicksand', sans-serif;
 
-}
-
-@media (max-width: 1765px){
-    .text{
-        margin-left:356px;
-    }
-}
-
-@media (max-width: 1665px){
-    .text{
-        margin-left:300px;
-    }
-}
-
-@media (max-width: 1555px){
-    .text{
-        margin-left:279px;
-    }
-}
-
-@media (max-width: 1495px){
-    .text{
-        margin-left:240px;
-    }
-}
-
-@media (max-width: 1445px){
-    .text{
-        margin-left:195px;
-    }
-}
-
-@media (max-width: 1378px){
-    .text{
-        margin-left:195px;
-    }
-}
-
-@media (max-width: 1378px){
-    .text{
-        margin-left:130px;
-    }
-}
-
-@media (max-width: 1270px){
-    .text{
-        margin-left:77spx;
-    }
-}
-
-@media (max-width: 1200px){
-    .text{
-        margin-left:32px;
-    }
 }
 
 @media (max-width: 1077px){
@@ -209,7 +158,7 @@ p{
         margin-left:18px;
     }
     .text{
-        margin-left:12px;
+        margin-left:0px;
         height: 353px;
         width:676px;
     }
@@ -231,14 +180,53 @@ p{
 
 @media (max-width: 675px){
     img{
-        height: 231px;
+        height: 201px;
     }
     .text{
         height:316px;
-        width: 607px;
+        width: 556px;
+    }
+    p{
+        width: 309px;
     }
     h1{
         font-size:36px;
+    }
+}
+
+@media (max-width: 585px){
+    .text{
+        width: 526px;
+    }
+    p{
+        width:287px;
+    }
+    img{
+        height:188px;
+    }
+}
+
+@media (max-width: 557px){
+    .text{
+        margin-left:0px;
+        width: 478px;
+    }
+    p{
+        width: 264px;
+    }
+    img{
+        height:173px;
+    }
+}
+
+@media (max-width: 465px){
+    p{
+        margin-top:77px;
+        width: 200px;
+
+    }
+    .text{
+        width:427px;
     }
 }
 
@@ -248,7 +236,7 @@ p{
         letter-spacing: 18px;
     }
     .text{
-        width:369px;
+        width:348px;
         height:404px;
     }
     p{
@@ -257,7 +245,7 @@ p{
         font-size: 20px;
     }
     img{
-        height:171px;
+        height:153px;
     }
 }
 
